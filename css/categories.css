@@ -6,7 +6,9 @@ h2 {
 }
 .categories_blocks {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-columns: repeat(6, 1fr); */
+    display: flex;
+    justify-content: space-between;
     gap: 18px;
     grid-template-rows: 236px;
 }

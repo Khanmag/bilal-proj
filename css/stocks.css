@@ -1,0 +1,97 @@
+
+.stocks {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 248px 248px;
+    gap: 24px;
+    padding-top: 24px;
+}
+.stocks > div:first-child {
+    grid-row: span 2;
+    padding: 56px;
+}
+.stocks > div {
+    background-color: #F2F4F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+}
+.blue_text {
+    text-transform: uppercase;
+    color: #2484C2;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+.stocks > div > h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #191C1F;
+}
+.stocks > div > p.description {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 356px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.orange_buy_btn {
+    padding: 0 32px;
+    background-color: #FA8232;
+    height: 56px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: white;
+}
+.stocks > div:first-child > img {
+    position: absolute;
+    right: 56px;
+    top: 56px;
+}
+.stocks > div:nth-child(2) {
+    background-color: black;
+    color: white;
+    padding: 46px 40px;
+}
+.stocks > div > p.yellow_text {
+    color: #EBC80C;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.stocks h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    max-width: 160px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+.stocks > div:nth-child(2) > img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.stocks > div:last-child {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px 40px 32px;
+    gap: 20px;
+}
+.stocks > div:last-child  h3 {
+    margin: 0;
+    margin-bottom: 12px;
+    color: #191C1F;
+}
+.stocks > div:last-child  p {
+    margin-bottom: 20px;
+    color: #2DA5F3;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}

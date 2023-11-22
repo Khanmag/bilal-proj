@@ -1,0 +1,35 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    /* background-color: grey; */
+    margin: 72px 0;
+}
+
+.products>article {
+    /* border: 5px solid wheat; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.prodict_block {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: max-content;
+    gap: 8px 12px;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 12px;
+}
+
+.prodict_block>img {
+    grid-row: span 2;
+}
+.product_descr {
+    color: #191C1F;
+}
+.product_price {
+    color:#2DA5F3;
+}

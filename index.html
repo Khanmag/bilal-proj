@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blank</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/stocks.css">
+    <link rel="stylesheet" href="/css/categories.css">
+    <link rel="stylesheet" href="./css/banners.css">
+    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__topline">
+            <p>Welcome to Clicon online eCommerce store.</p>
+            <div class="header__icons">
+                <div class="follow_icon">
+                    <span>Follow us:</span>
+                    <a href="#">
+                        <img src="./static/icons/Twitter.png" alt="Twitter">
+                    </a>
+                    <a href="#">
+                        <img src="./static/icons/Facebook.png" alt="Facebook">
+                    </a>
+                    <a href="#">
+                        <img src="./static/icons/Vector.png" alt="Vector">
+                    </a>
+                    <a href="#">
+                        <img src="./static/icons/Reddit.png" alt="Reddit">
+                    </a>
+                    <a href="#">
+                        <img src="./static/icons/Youtube.png" alt="Youtube">
+                    </a>
+                </div>
+                <div class="lang_currency">
+                    <select name="lang" id="lang">
+                        <option value="eng">Eng</option>
+                        <option value="ru">Ru</option>
+                    </select>
+                    <select name="currency" id="currency">
+                        <option value="usd">USD</option>
+                        <option value="rub">RUB</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="header__navline">
+            <div>
+                <img src="./static/Logo.png" alt="logo">
+            </div>
+            <div class="seach_input">
+                <input type="search" placeholder="Search for anything...">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                        <path
+                            d="M9.5625 15.625C13.1869 15.625 16.125 12.6869 16.125 9.0625C16.125 5.43813 13.1869 2.5 9.5625 2.5C5.93813 2.5 3 5.43813 3 9.0625C3 12.6869 5.93813 15.625 9.5625 15.625Z"
+                            stroke="#191C1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M14.2031 13.7031L18 17.5" stroke="#191C1F" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+            <nav>
+                <a href="#cart">
+                    <img src="./static/icons/ShoppingCartSimple.png" alt="cart">
+                </a>
+                <a href="#favorite">
+                    <img src="./static/icons/Heart.png" alt="heart">
+                </a>
+                <a href="#auth">
+                    <img src="./static/icons/User.png" alt="user">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="stocks">
+            <div>
+                <p class="blue_text">THE BEST PLACE TO PLAY</p>
+                <h2>Xbox Consoles</h2>
+                <p class="description">Save up to 50% on select Xbox games. Get 3 months of PC Game Pass for $2 USD.</p>
+                <button class="orange_buy_btn">
+                    <span>SHOP NOW</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M3.75 12H20.25" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M13.5 5.25L20.25 12L13.5 18.75" stroke="white" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <img src="./static/products/xbox.png" alt="xbox">
+            </div>
+            <div>
+                <p class="yellow_text">SUMMER SALES</p>
+                <h3>New Google Pixel 6 Pro</h3>
+                <button class="orange_buy_btn">
+                    <span>SHOP NOW</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M3.75 12H20.25" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M13.5 5.25L20.25 12L13.5 18.75" stroke="white" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <img src="./static/products/pixelpro.png" alt="PIXEL PRO">
+            </div>
+            <div>
+                <img src="./static/products/flipbuds.png" alt="flipbuds">
+                <div>
+                    <h3>Xiaomi FlipBuds Pro</h3>
+                    <p>$299 USD</p>
+                    <button class="orange_buy_btn">
+                        <span>SHOP NOW</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M3.75 12H20.25" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M13.5 5.25L20.25 12L13.5 18.75" stroke="white" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="categories">
+            <h2>Shop with Categories</h2>
+            <article class="categories_blocks">
+                <div>
+                    <img src="./static/products/Computer&Laptop.png" alt="Computer&Laptop">
+                    <p>Computer & Laptop</p>
+                </div>
+                <div>
+                    <img src="/static/products/SmartPhone.png" alt="SmartPhone">
+                    <p>SmartPhone</p>
+                </div>
+                <div>
+                    <img src="static/products/Headphones.png" alt="Headphones">
+                    <p>Headphones</p>
+                </div>
+                <div>
+                    <img src="static/products/Accessories.png" alt="Accessories">
+                    <p>Accessories</p>
+                </div>
+                <div>
+                    <img src="static/products/Camera&Photo.png" alt="Camera&Photo">
+                    <p>Camera & Photo</p>
+                </div>
+                <div>
+                    <img src="static/products/TV&Homes.png" alt="TV&Homes">
+                    <p>TV & Homes</p>
+                </div>
+            </article>
+        </section>
+        <section class="banners">
+            <div class="banners_grey">
+                <p>introducing</p>
+                <h3>New Apple Homepod Mini</h3>
+                <span>Jam-packed with innovation, HomePod mini delivers unexpectedly.</span>
+                <button class="orange_buy_btn">
+                    <span>SHOP NOW</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M3.75 12H20.25" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M13.5 5.25L20.25 12L13.5 18.75" stroke="white" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <img src="static/banner-grey.png" alt="banner-grey">
+            </div>
+            <div class="banners_black">
+                <p>introducing new</p>
+                <h3>Xiaomi Mi 11 Ultra 12GB+256GB</h3>
+                <span>*Data provided by internal laboratories. Industry measurment.</span>
+                <button class="orange_buy_btn">
+                    <span>SHOP NOW</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M3.75 12H20.25" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M13.5 5.25L20.25 12L13.5 18.75" stroke="white" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <img src="static/banner-black.png" alt="banner-black">
+            </div>
+        </section>
+        <section class="big_banner">
+            <p>SAVE UP TO $200.00</p>
+            <h3>Macbook Pro</h3>
+            <span>Apple M1 Max Chip. 32GB Unified Memory, 1TB SSD Storage</span>
+            <button class="orange_buy_btn">
+                <span>SHOP NOW</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M3.75 12H20.25" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M13.5 5.25L20.25 12L13.5 18.75" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <img src="static/big-banner.png" alt="big-banner">
+        </section>
+        <section class="products">
+            <article>
+                <h4>FLASH SALE TODAY</h4>
+                <div class="prodict_block">
+                    <img src="static/products/product11.png" alt="11">
+                    <p class="product_descr">
+                        Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear...
+                    </p>
+                    <p class="product_price">$1,500</p>
+                </div>
+                <div class="prodict_block">
+                    <img src="static/products/product12.png" alt="12">
+                    <p class="product_descr">
+                        Simple Mobile 4G LTE Prepaid Smartphone
+                    </p>
+                    <p class="product_price">$1,500</p>
+                </div>
+                <div class="prodict_block">
+                    <img src="static/products/product13.png" alt="13">
+                    <p class="product_descr">
+                        4K UHD LED Smart TV with Chromecast Built-in
+                    </p>
+                    <p class="product_price">$1,500</p>
+                </div>
+            </article>
+            <article>
+                <h4>BEST SELLERS</h4>
+                <div class="prodict_block">
+                    <img src="static/products/product21.png" alt="11">
+                    <p class="product_descr">
+                        Samsung Electronics Samsung Galexy S21 5G
+                    </p>
+                    <p class="product_price">$1,500</p>
+                </div>
+                <div class="prodict_block">
+                    <img src="static/products/product22.png" alt="12">
+                    <p class="product_descr">
+                        Simple Mobile 5G LTE Galexy 12 Mini 512GB Gaming Phone
+                    </p>
+                    <p class="product_price">$1,500</p>
+                </div>
+                <div class="prodict_block">
+                    <img src="static/products/product23.png" alt="13">
+                    <p class="product_descr">
+                        Sony DSCHX8 High Zoom Point & Shoot Camera
+                    </p>
+                    <p class="product_price">$1,500</p>
+                </div>
+            </article>
+            <article>
+                <h4>TOP RATED</h4>
+                <div class="prodict_block">
+                    <img src="static/products/product31.png" alt="11">
+                    <p class="product_descr">
+                        Portable Wshing Machine, 11lbs capacity Model 18NMF...
+                    </p>
+                    <p class="product_price">$1,500</p>
+                </div>
+                <div class="prodict_block">
+                    <img src="static/products/product32.png" alt="12">
+                    <p class="product_descr">
+                        Sony DSCHX8 High Zoom Point & Shoot Camera
+                    </p>
+                    <p class="product_price">$1,500</p>
+                </div>
+                <div class="prodict_block">
+                    <img src="static/products/product33.png" alt="13">
+                    <p class="product_descr">
+                        Dell Optiplex 7000x7480 All-in-One Computer Monitor
+                    </p>
+                    <p class="product_price">$1,500</p>
+                </div>
+            </article>
+            <article>
+                <h4>NEW ARRIVAL</h4>
+                <div class="prodict_block">
+                    <img src="static/products/product41.png" alt="11">
+                    <p class="product_descr">
+                        TOZO T6 True Wireless Earbuds Bluetooth Headpho...
+                    </p>
+                    <p class="product_price">$1,500</p>
+                </div>
+                <div class="prodict_block">
+                    <img src="static/products/product42.png" alt="12">
+                    <p class="product_descr">
+                        JBL FLIP 4 - Waterproof Portable Bluetooth Speaker...
+                    </p>
+                    <p class="product_price">$1,500</p>
+                </div>
+                <div class="prodict_block">
+                    <img src="static/products/product43.png" alt="13">
+                    <p class="product_descr">
+                        Wyze Cam Pan v2 1080p Pan/Tilt/Zoom Wi-Fi Indoor Smar...
+                    </p>
+                    <p class="product_price">$1,500</p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="form">
+            <h2>Subscribe to our newsletter</h2>
+            <p>
+                Praesent fringilla erat a lacinia egestas. 
+                Donec vehicula tempor libero et cursus. 
+                Donec non quam urna. Quisque vitae porta ipsum.
+            </p>
+            <div>
+                <input type="email" placeholder="Email adress...">
+                <button class="orange_buy_btn">
+                    <span>SUBSCRIBE</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M3.75 12H20.25" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M13.5 5.25L20.25 12L13.5 18.75" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>

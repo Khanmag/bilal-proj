@@ -1,0 +1,26 @@
+h2 {
+    font-size: 32px;
+    font-weight: 6oo;
+    line-height: 40px;
+    text-align: center;
+}
+.categories_blocks {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 18px;
+    grid-template-rows: 236px;
+}
+.categories_blocks > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid#E4E7E9;
+    border-radius: 4px;
+    background-color: white;
+}
